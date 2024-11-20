@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>
+        Calculator
+      </h1>
+    </header>
+    <main>
+      <section class="input-box">
+        <input  type="text" disabled id="content-box"placeholder="">
+      </section>
+      <section id="btn-container">
+        <div class="box row-1">
+          <button class="btn" onclick="number('7')">7</button>
+          <button class="btn" onclick="number('8')" >8</button>
+          <button class="btn" onclick="number('9')">9</button>
+          <button class="btn armath" onclick="number('+')">+</button>
+        </div>
+        <div class="box row-2">
+          <button class="btn" onclick="number('4')">4</button>
+          <button class="btn" onclick="number('5')">5</button>
+          <button class="btn" onclick="number('6')">6</button>
+          <button class="btn armath" onclick="number('-')">_</button>
+        </div>
+        <div class="box row-2">
+          <button class="btn" onclick="number('1')">1</button>
+          <button class="btn" onclick="number('2')">2</button>
+          <button class="btn" onclick="number('3')">3</button>
+          <button class="btn armath" onclick="number('*')">x</button>
+        </div>
+        <div class="box row-2">
+          
+          <button class="btn" onclick="number('.')">.</button>
+          <button class="btn" onclick="number('0')">0</button>
+          <button class="btn armath" onclick="number('/')">÷</button>
+          <button class="btn Answerbtn " onclick="Answer('=')">=</button>
+        </div>
+        <div class="box row-2">
+          <button class="btn clearbtn " onclick="ClearResult()">Clear</button>
+        </div>
+
+      </section>
+    </main>
+  </div>
+  <script src="js.js">
+    
+   
+  </script>
+</body>
+
+</html>
